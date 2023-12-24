@@ -7,14 +7,11 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Alteruna.RoomMenu" preserve="nothing"/>
-		<type fullname="CarController" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Cinemachine">
-		<type fullname="Cinemachine.CinemachineBrain" preserve="nothing"/>
-		<type fullname="Cinemachine.CinemachineComposer" preserve="nothing"/>
-		<type fullname="Cinemachine.CinemachinePipeline" preserve="nothing"/>
-		<type fullname="Cinemachine.CinemachineTransposer" preserve="nothing"/>
-		<type fullname="Cinemachine.CinemachineVirtualCamera" preserve="nothing"/>
+		<type fullname="carJumping" preserve="nothing"/>
+		<type fullname="CarTiltControl" preserve="nothing"/>
+		<type fullname="isPressed" preserve="nothing"/>
+		<type fullname="RocketLeagueCarController" preserve="nothing"/>
+		<type fullname="RotateWithBumper" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
@@ -34,6 +31,7 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
@@ -55,12 +53,12 @@
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
-		<type fullname="UnityEngine.WheelCollider" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>

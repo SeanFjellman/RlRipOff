@@ -20,6 +20,9 @@ public class RocketLeagueCarController : MonoBehaviour
         // Read the input from the triggers
         float forwardTrigger = Input.GetAxis("ForwardTrigger");
         float reverseTrigger = Input.GetAxis("ReverseTrigger");
+        // Read from kb
+        ///float kbforward = Input.GetKeyDown("w");
+        ///float kbreverse = Input.GetKey("w");
 
         // Determine movement direction
         float moveVertical = 0;
@@ -32,9 +35,18 @@ public class RocketLeagueCarController : MonoBehaviour
             moveVertical = -reverseTrigger; // Move backward
         }
 
+        if (Input.GetKey("w"))
+        {
+            moveVertical = maxVelocity;
+        }
+        else if (Input.GetKey("s"))
+        {
+            moveVertical = -maxVelocity;
+        }
+
         // Apply the drive force with or without boost
         Vector3 forceToAdd;
-        if (Input.GetButton("Boost"))
+        if (Input.GetButton("Boost") || Input.GetMouseButton(0))
         {
             forceToAdd = transform.forward * moveVertical * driveForce * boostMultiplier;
         }
@@ -60,5 +72,7 @@ public class RocketLeagueCarController : MonoBehaviour
         {
             rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, -rotationSpeed * Time.fixedDeltaTime, 0f));
         }
+
+
     }
 }

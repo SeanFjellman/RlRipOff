@@ -46,42 +46,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "CarController",
+            "fullManagedTypeName": "carJumping",
             "moduleName": "",
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Cinemachine.dll",
+            "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Cinemachine.CinemachineBrain",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Cinemachine.CinemachineComposer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Cinemachine.CinemachinePipeline",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Cinemachine.CinemachineTransposer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Cinemachine.CinemachineVirtualCamera",
+            "fullManagedTypeName": "CarTiltControl",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -115,6 +87,13 @@
             "nativeClass": "GlobalGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "isPressed",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -163,6 +142,20 @@
             "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RocketLeagueCarController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RotateWithBumper",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -317,6 +310,15 @@
             "nativeClass": "CanvasRenderer",
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/MainScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/MainScene.unity"
             ]
@@ -522,6 +524,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/MainScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Sprite",
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
@@ -632,15 +643,6 @@
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "WheelCollider",
-            "fullManagedTypeName": "UnityEngine.WheelCollider",
-            "moduleName": "Vehicles",
-            "usedInScenes": [
-                "Assets/Scenes/MainScene.unity"
-            ]
         }
     ],
     "allNativeTypes": [

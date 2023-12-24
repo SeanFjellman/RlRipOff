@@ -346,6 +346,12 @@
 "Assets/PhotonChatApi/ChatUserStatus.cs"
 "Assets/PhotonChatApi/IChatClientListener.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/carJumping.cs"
+"Assets/Scripts/CarRotationControl.cs"
+"Assets/Scripts/CarTiltControl.cs"
+"Assets/Scripts/isPressed.cs"
+"Assets/Scripts/RocketCarController.cs"
+"Assets/Scripts/SmoothCameraFollow.cs"
 -langversion:9.0
 
 /deterministic

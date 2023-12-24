@@ -347,7 +347,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 45835,
+      "PayloadLength": 45952,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -450,19 +450,19 @@
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/Sean/RLthing/Assets/Plugins/WebSocket/websocket-sharp.dll",
-        "C:/Users/Sean/RLthing/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/Users/Sean/RLthing/Assets/Plugins/netstandard2.0/Photon3Unity3D.dll",
-        "C:/Users/Sean/RLthing/Assets/Alteruna/Plugins/Alteruna.Trinity.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Plugins/WebSocket/websocket-sharp.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Alteruna/Plugins/Alteruna.Trinity.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Plugins/netstandard2.0/Photon3Unity3D.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -1240,16 +1240,16 @@
       "DebugActionIndex": 13
     },
     {
-      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12312027309799984059.rsp",
-      "DisplayName": "Writing 12312027309799984059.rsp",
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13103923498167958202.rsp",
+      "DisplayName": "Writing 13103923498167958202.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 46008,
-      "PayloadLength": 67491,
+      "PayloadOffset": 46125,
+      "PayloadLength": 67806,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"H:/unity p",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/rsp/12312027309799984059.rsp"
+        "Library/Bee/artifacts/rsp/13103923498167958202.rsp"
       ],
       "OutputFlags": [
         2
@@ -1257,10 +1257,10 @@
       "DebugActionIndex": 14
     },
     {
-      "Annotation": "UnityLinker C:/Users/Sean/RLthing/Library/Bee/artifacts/unitylinker_dwek.traceevents",
+      "Annotation": "UnityLinker C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/unitylinker_dwek.traceevents",
       "DisplayName": "Code-stripping Assemblies with UnityLinker",
-      "Action": "\"H:\\unity projects\\2023.2.3f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" @\"Library\\Bee\\artifacts\\rsp\\12312027309799984059.rsp\"",
-      "ProfilerOutput": "C:/Users/Sean/RLthing/Library/Bee/artifacts/unitylinker_dwek.traceevents",
+      "Action": "\"H:\\unity projects\\2023.2.3f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" @\"Library\\Bee\\artifacts\\rsp\\13103923498167958202.rsp\"",
+      "ProfilerOutput": "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/unitylinker_dwek.traceevents",
       "Inputs": [
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
@@ -1336,19 +1336,19 @@
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/Sean/RLthing/Assets/Plugins/WebSocket/websocket-sharp.dll",
-        "C:/Users/Sean/RLthing/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/Users/Sean/RLthing/Assets/Plugins/netstandard2.0/Photon3Unity3D.dll",
-        "C:/Users/Sean/RLthing/Assets/Alteruna/Plugins/Alteruna.Trinity.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Plugins/WebSocket/websocket-sharp.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Alteruna/Plugins/Alteruna.Trinity.dll",
+        "C:/Users/Sean/RLthing/RlRipOff/Assets/Plugins/netstandard2.0/Photon3Unity3D.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -1632,9 +1632,9 @@
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/cscompmgd.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/monodoc.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
-        "C:/Users/Sean/RLthing/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml",
-        "C:/Users/Sean/RLthing/Library/Bee/artifacts/UnityLinkerInputs/SerializedTypes.xml",
-        "C:/Users/Sean/RLthing/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/UnityLinkerInputs/SerializedTypes.xml",
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json",
         "H:/unity projects/2023.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/modules.asset",
         "H:/unity projects/2023.2.3f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.dll",
         "H:/unity projects/2023.2.3f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.xml",
@@ -1916,7 +1916,7 @@
         "H:/unity projects/2023.2.3f1/Editor/Data/il2cpp/build/deploy/UnityLinker.exe",
         "H:/unity projects/2023.2.3f1/Editor/Data/il2cpp/build/deploy/UnityLinker.runtimeconfig.json",
         "H:/unity projects/2023.2.3f1/Editor/Data/il2cpp/build/deploy/WindowsBase.dll",
-        "Library/Bee/artifacts/rsp/12312027309799984059.rsp"
+        "Library/Bee/artifacts/rsp/13103923498167958202.rsp"
       ],
       "InputFlags": [
         0,
@@ -2576,7 +2576,7 @@
         8
       ],
       "Outputs": [
-        "C:/Users/Sean/RLthing/Library/Bee/artifacts/unitylinker_dwek.traceevents"
+        "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/artifacts/unitylinker_dwek.traceevents"
       ],
       "OutputFlags": [
         0
@@ -4888,7 +4888,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 113588,
+      "PayloadOffset": 114020,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "DefaultCompany\nRLthing",
       "Inputs": [],
@@ -5751,6 +5751,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Playerdf1fc3c6.dag.json",
-  "PayloadsFile": "C:/Users/Sean/RLthing/Library/Bee/Playerdf1fc3c6.dag.payloads",
+  "PayloadsFile": "C:/Users/Sean/RLthing/RlRipOff/Library/Bee/Playerdf1fc3c6.dag.payloads",
   "RelativePathToRoot": "../.."
 }
