@@ -8,31 +8,62 @@ public class RocketLeagueCarController : MonoBehaviour
     public float boostMultiplier = 2.0f;
     public float rotationSpeed = 100f; // Speed of rotation for bumpers
 
+    public float airRollSpeed = 50f; // Speed of rotation in the air
+
     private Rigidbody rb;
+    private bool isGrounded;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
+    void OnCollisionEnter(Collision other)
+    {
+        // Assuming that the ground has a specific tag
+        if (other.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
+        }
+    }
+
     void FixedUpdate()
     {
-        // Read the input from the triggers
+        // Handle drive and turning
+        HandleDrive();
+        HandleTurning();
+
+        // Handle air rolling
+        if (!isGrounded)
+        {
+            HandleAirRoll();
+        }
+
+        // Limit the velocity
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+    }
+
+    private void HandleDrive()
+    {
         float forwardTrigger = Input.GetAxis("ForwardTrigger");
         float reverseTrigger = Input.GetAxis("ReverseTrigger");
-        // Read from kb
-        ///float kbforward = Input.GetKeyDown("w");
-        ///float kbreverse = Input.GetKey("w");
-
-        // Determine movement direction
         float moveVertical = 0;
+
         if (forwardTrigger > 0.1f)
         {
-            moveVertical = forwardTrigger; // Move forward
+            moveVertical = forwardTrigger;
         }
         else if (reverseTrigger > 0.1f)
         {
-            moveVertical = -reverseTrigger; // Move backward
+            moveVertical = -reverseTrigger;
         }
 
         if (Input.GetKey("w"))
@@ -44,7 +75,6 @@ public class RocketLeagueCarController : MonoBehaviour
             moveVertical = -maxVelocity;
         }
 
-        // Apply the drive force with or without boost
         Vector3 forceToAdd;
         if (Input.GetButton("Boost") || Input.GetMouseButton(0))
         {
@@ -55,24 +85,21 @@ public class RocketLeagueCarController : MonoBehaviour
             forceToAdd = transform.forward * moveVertical * driveForce;
         }
         rb.AddForce(forceToAdd, ForceMode.Acceleration);
+    }
 
-        // Handle turning with horizontal axis
+    private void HandleTurning()
+    {
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb.angularVelocity = Vector3.up * moveHorizontal * turnSpeed;
+    }
 
-        // Limit the velocity to the max velocity
-        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+    private void HandleAirRoll()
+    {
+        float roll = Input.GetAxis("Roll"); // Assumes "Roll" is mapped to an axis
+        float pitch = Input.GetAxis("Pitch"); // Assumes "Pitch" is mapped to an axis
+        float yaw = Input.GetAxis("Yaw"); // Assumes "Yaw" is mapped to an axis
 
-        // Handle bumper-based rotation
-        if (Input.GetButton("RightBumper"))
-        {
-            rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, rotationSpeed * Time.fixedDeltaTime, 0f));
-        }
-        if (Input.GetButton("LeftBumper"))
-        {
-            rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, -rotationSpeed * Time.fixedDeltaTime, 0f));
-        }
-
-
+        Vector3 airRotation = new Vector3(pitch, yaw, roll) * airRollSpeed * Time.fixedDeltaTime;
+        rb.AddRelativeTorque(airRotation, ForceMode.Acceleration);
     }
 }
