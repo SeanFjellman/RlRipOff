@@ -6,6 +6,7 @@ public class RocketLeagueCarController : MonoBehaviour
     public float turnSpeed = 3.5f;
     public float maxVelocity = 20f;
     public float boostMultiplier = 2.0f;
+    public float rotationSpeed = 100f; // Speed of rotation for bumpers
 
     private Rigidbody rb;
 
@@ -17,8 +18,8 @@ public class RocketLeagueCarController : MonoBehaviour
     void FixedUpdate()
     {
         // Read the input from the triggers
-        float forwardTrigger = Input.GetAxis("ForwardTrigger"); // Set up in the Input Manager
-        float reverseTrigger = Input.GetAxis("ReverseTrigger"); // Set up in the Input Manager
+        float forwardTrigger = Input.GetAxis("ForwardTrigger");
+        float reverseTrigger = Input.GetAxis("ReverseTrigger");
 
         // Determine movement direction
         float moveVertical = 0;
@@ -33,7 +34,7 @@ public class RocketLeagueCarController : MonoBehaviour
 
         // Apply the drive force with or without boost
         Vector3 forceToAdd;
-        if (Input.GetButton("Boost")) // "Boost" should be set up in the Input Manager
+        if (Input.GetButton("Boost"))
         {
             forceToAdd = transform.forward * moveVertical * driveForce * boostMultiplier;
         }
@@ -43,14 +44,21 @@ public class RocketLeagueCarController : MonoBehaviour
         }
         rb.AddForce(forceToAdd, ForceMode.Acceleration);
 
-        // Handle turning
+        // Handle turning with horizontal axis
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb.angularVelocity = Vector3.up * moveHorizontal * turnSpeed;
 
         // Limit the velocity to the max velocity
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
 
-
-        
+        // Handle bumper-based rotation
+        if (Input.GetButton("RightBumper"))
+        {
+            rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, rotationSpeed * Time.fixedDeltaTime, 0f));
+        }
+        if (Input.GetButton("LeftBumper"))
+        {
+            rb.MoveRotation(rb.rotation * Quaternion.Euler(0f, -rotationSpeed * Time.fixedDeltaTime, 0f));
+        }
     }
 }

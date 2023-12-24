@@ -28,6 +28,18 @@ void Update()
         Debug.Log("Reverse Trigger is pressed");
     }
     */
+    if (Input.GetButton("LeftBumper"))
+    {
+        // Rotate to the left
+        Debug.Log("LeftBumperPressed");
+    }
+
+    // Check for right bumper press
+    if (Input.GetButton("RightBumper"))
+    {
+        // Rotate to the right
+        Debug.Log("RightBumperPressed");
+    }
 }
 
 }

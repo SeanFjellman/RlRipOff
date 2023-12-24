@@ -248,6 +248,7 @@ MonoBehaviour:
   turnSpeed: 3.5
   maxVelocity: 20
   boostMultiplier: 8
+  rotationSpeed: 5000
 --- !u!114 &6140356737382981698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,12 +350,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406631974587577293}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 884b379737c91124391fab6d281a8242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 100
+  rotationSpeed: 50000
 --- !u!4 &1787521101514926455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1880317207959290724, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
