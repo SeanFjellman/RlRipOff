@@ -1,43 +1,174 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Sean/RLthing/RlRipOff/Packages/manifest.json
+    m_FilePath: C:/Users/meyyh/RlRipOff/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 638391359804927413
-    m_Hash: 3174812515
-=======
-      ticks: 638390877159681676
-    m_Hash: 147585623
->>>>>>> 8a09a233e3ef9fb81e75f01148997d6b03615e5a
+      ticks: 638391377472478750
+    m_Hash: 1696782185
   m_LockFileStatus:
-    m_FilePath: C:/Users/Sean/RLthing/RlRipOff/Packages/packages-lock.json
+    m_FilePath: C:/Users/meyyh/RlRipOff/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 638391359811484435
-    m_Hash: 2218858099
-=======
-      ticks: 638390877159691730
-    m_Hash: 1733469224
->>>>>>> 8a09a233e3ef9fb81e75f01148997d6b03615e5a
+      ticks: 638391377472496767
+    m_Hash: 76461204
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Sean/RLthing/RlRipOff/Packages
+m_ProjectPath: C:/Users/meyyh/RlRipOff/Packages
 m_EditorVersion: 2023.2.3f1 (21747dafc6ee)
 m_ResolvedPackages:
+- packageId: com.unity.adaptiveperformance@5.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.2
+  source: 1
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.adaptiveperformance@5.0.2
+  assetPath: Packages/com.unity.adaptiveperformance
+  name: com.unity.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'The Adaptive Performance package provides an API to get feedback
+    about the thermal and power state of mobile devices, enabling applications to
+    make performance-relevant adaptions at runtime.
+
+
+    For instruction on how
+    to use samples, please read the documentation.
+
+
+    By installing this package,
+    you agree to the terms and conditions of the Unity End User License Agreement
+    found under "View licenses" above.'
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    compatible:
+    - 5.0.1
+    - 5.0.2
+    recommended: 5.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - indexer
+  - scaler
+  - vrr
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638290079540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
+    revision: d0a859ff72cb2feff9652eda68ebb265cc9f63a1
+    path: 
+  unityLifecycle:
+    version: 5.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Removed\n* Meta file which should not be there
+    since the folder is empty.\n\n### Fixed\n- Fixed asset save decision which causes
+    the editor to save profiles constantly while the Adaptive Performance settings
+    window is open."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.cinemachine@2.9.7
   testable: 0
   isDirectDependency: 1
   version: 2.9.7
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.cinemachine@2.9.7
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.cinemachine@2.9.7
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -221,7 +352,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.feature.development@1.0.2
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.feature.development@1.0.2
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -317,7 +448,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.6
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.timeline@1.8.6
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.timeline@1.8.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -491,7 +622,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -591,7 +722,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.ugui@2.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.ugui@2.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -676,7 +807,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -781,7 +912,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.accessibility@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.accessibility@1.0.0
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -843,7 +974,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -905,7 +1036,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -966,7 +1097,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1028,7 +1159,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1090,7 +1221,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1152,7 +1283,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1218,7 +1349,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1288,7 +1419,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1350,7 +1481,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1407,77 +1538,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-<<<<<<< HEAD
-=======
-- packageId: com.unity.modules.jsonserialize@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
-  assetPath: Packages/com.unity.modules.jsonserialize
-  name: com.unity.modules.jsonserialize
-  displayName: JSONSerialize
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The JSONSerialize module provides the JsonUtility class which lets
-    you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
->>>>>>> 8a09a233e3ef9fb81e75f01148997d6b03615e5a
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1539,7 +1605,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1601,7 +1667,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1663,7 +1729,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1729,7 +1795,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1791,7 +1857,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1861,7 +1927,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1926,7 +1992,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1988,7 +2054,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2066,7 +2132,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2128,7 +2194,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2198,7 +2264,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2260,7 +2326,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2330,7 +2396,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2400,7 +2466,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2470,7 +2536,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2556,7 +2622,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2622,7 +2688,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2696,7 +2762,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2772,7 +2838,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2834,7 +2900,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2970,7 +3036,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3036,7 +3102,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3098,7 +3164,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.7
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.sysroot@2.0.7
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.sysroot@2.0.7
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3184,7 +3250,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3271,7 +3337,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3372,7 +3438,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.26
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.ide.rider@3.0.26
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3481,7 +3547,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3553,7 +3619,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3632,7 +3698,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.9
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.test-framework@1.3.9
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.test-framework@1.3.9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3769,7 +3835,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3882,12 +3948,82 @@ m_ResolvedPackages:
     line (case [COV-25](https://issuetracker.unity3d.com/issues/useprojectsettings-does-not-generate-report-until-auto-generate-report-is-toggled-off-and-on-again))."}'
   assetStore:
     productId: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3956,7 +4092,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\Sean\RLthing\RlRipOff\Library\PackageCache\com.unity.ext.nunit@2.0.5
+  resolvedPath: C:\Users\meyyh\RlRipOff\Library\PackageCache\com.unity.ext.nunit@2.0.5
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
