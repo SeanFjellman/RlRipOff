@@ -416,14 +416,19 @@
 "Assets/PhotonChatApi/ChatState.cs"
 "Assets/PhotonChatApi/ChatUserStatus.cs"
 "Assets/PhotonChatApi/IChatClientListener.cs"
+"Assets/Scripts/boost_ui.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/carJumping.cs"
 "Assets/Scripts/CarRotationControl.cs"
 "Assets/Scripts/CarTiltControl.cs"
 "Assets/Scripts/gameManager.cs"
+<<<<<<< HEAD
+"Assets/Scripts/goal.cs"
+=======
 "Assets/Scripts/GoalDetection.cs"
 "Assets/Scripts/GoalDetection2.cs"
 "Assets/Scripts/hi.cs"
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
 "Assets/Scripts/isPressed.cs"
 "Assets/Scripts/RocketCarController.cs"
 "Assets/Scripts/SmoothCameraFollow.cs"

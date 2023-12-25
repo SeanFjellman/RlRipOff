@@ -40343,8 +40343,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1740213,
+      "PayloadLength": 37903,
+=======
       "PayloadOffset": 1635185,
       "PayloadLength": 34385,
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -40360,7 +40365,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1778203,
+=======
       "PayloadOffset": 1669657,
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -40664,14 +40673,19 @@
         "Assets/PhotonChatApi/ChatState.cs",
         "Assets/PhotonChatApi/ChatUserStatus.cs",
         "Assets/PhotonChatApi/IChatClientListener.cs",
+        "Assets/Scripts/boost_ui.cs",
         "Assets/Scripts/CarController.cs",
         "Assets/Scripts/carJumping.cs",
         "Assets/Scripts/CarRotationControl.cs",
         "Assets/Scripts/CarTiltControl.cs",
         "Assets/Scripts/gameManager.cs",
+<<<<<<< HEAD
+        "Assets/Scripts/goal.cs",
+=======
         "Assets/Scripts/GoalDetection.cs",
         "Assets/Scripts/GoalDetection2.cs",
         "Assets/Scripts/hi.cs",
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
         "Assets/Scripts/isPressed.cs",
         "Assets/Scripts/RocketCarController.cs",
         "Assets/Scripts/SmoothCameraFollow.cs",
@@ -40978,9 +40992,12 @@
         0,
         0,
         0,
+<<<<<<< HEAD
+=======
         0,
         0,
         0,
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
         8
       ],
       "Outputs": [
@@ -41043,8 +41060,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 1778299,
+      "PayloadLength": 11811,
+=======
       "PayloadOffset": 1669753,
       "PayloadLength": 11966,
+>>>>>>> 07dc0932f0ac21776971669f6a1201893e88e2e5
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "InputFlags": [],
