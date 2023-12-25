@@ -249,7 +249,7 @@ MonoBehaviour:
   maxVelocity: 20
   boostMultiplier: 8
   rotationSpeed: 5000
-  airRollSpeed: 5000
+  airRollSpeed: 0
 --- !u!114 &6140356737382981698
 MonoBehaviour:
   m_ObjectHideFlags: 0
