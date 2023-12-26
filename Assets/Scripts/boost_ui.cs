@@ -15,7 +15,7 @@ public class NumberDisplay : MonoBehaviour
 
     void UpdateNumberDisplay()
     {
-        textComponent.text = "Number: " + boost_num;
+        textComponent.text = "BOOST: " + boost_num;
     }
 
     void Update()
